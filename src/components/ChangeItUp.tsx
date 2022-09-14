@@ -1,7 +1,7 @@
 import React from "react";
 
 function ChangeItUp() {
-  function handleChange(event) {
+  function handleChange(event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) {
     console.log(`${event.target.name}: ${event.target.value}`);
   }
 
