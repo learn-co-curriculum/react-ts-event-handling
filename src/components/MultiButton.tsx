@@ -1,7 +1,5 @@
-import React from "react";
-
 function MultiButton() {
-  function handleClick(number: React.MouseEvent<HTMLButtonElement>) {
+  function handleClick(number: number) {
     console.log(`Button ${number} was clicked`);
   }
 
