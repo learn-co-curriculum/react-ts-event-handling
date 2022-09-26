@@ -1,7 +1,7 @@
 import React from "react";
 
 function Login() {
-  function handleSubmit(event) {
+  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     console.log("I submit");
   }

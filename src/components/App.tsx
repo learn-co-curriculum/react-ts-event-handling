@@ -1,4 +1,3 @@
-import React from "react";
 import Tickler from "./Tickler";
 import MultiButton from "./MultiButton";
 import ChangeItUp from "./ChangeItUp";
